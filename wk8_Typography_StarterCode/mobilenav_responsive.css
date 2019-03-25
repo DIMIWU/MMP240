@@ -11,8 +11,8 @@ https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 }
 
 .topnav a {
-  float: left;
-  display: block;
+  float: none;
+  display: inline-block;
   color: #96BA96;
   text-align: center;
   padding: 14px 16px;
