@@ -80,3 +80,61 @@ footer{
 	padding:10px;
 	clear: both;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px){
+			aside{
+			width: 100%;
+			float: left;
+			
+			
+			}
+
+			article{
+				width: 100%;
+				float: left;
+			}
+ div {
+ 	width: 80%;
+ 	margin: 0 auto;
+ }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
