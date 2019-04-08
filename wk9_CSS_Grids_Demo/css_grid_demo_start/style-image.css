@@ -1,0 +1,14 @@
+.featured-image img{
+	display:bold;
+	width:100%;
+	height: auto;
+}
+.featured-image{
+	margin: 1em 0;
+}
+
+.image-caption{
+	font-size: 80%;
+	padding: .7em 1em;
+	background:hsl(20,100%,85%);/*hue, saturation, and lightness */
+}

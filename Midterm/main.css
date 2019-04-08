@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+nav{
+	background-color: orange;
+	text-align: center;
+	
+}
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a {
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	color: white;
+
+}
+ nav a:hover{
+ 	background-color: #ffed8c;
+ 	color: black;
+ }
+
+body{
+	max-width: 1020px;
+	text-align: center;
+	margin: auto;
+
+	background-size: cover;
+	background: url(Images/JourneyToTheWestJasperShaw.jpg) no-repeat center center fixed;
+	color: #000000;
+			
+	}
+
+h1 {
+	padding: 20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h2 {
+	padding: 15px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+
+
+
+@media only screen and (max-width: 800px){
+
+
+
+
+
+
+
+
+
+}

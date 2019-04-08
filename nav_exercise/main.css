@@ -1,0 +1,140 @@
+/*the solution of floting*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*clean the small spot*/
+
+nav{
+	background-color: orange;
+	text-align: center;
+}
+
+
+
+nav ul{
+	list-style: none;
+}
+
+/*put every thing inline */
+nav li{
+	display: inline;
+}
+
+/*make a padding of the list*/
+nav a {
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	color: white;
+
+}
+ nav a:hover{
+ 	background-color: #ffed8c;
+ 	color: black;
+ }
+
+body{
+	text-align: center;
+	margin-top: 20px;
+}
+
+h1 {
+	padding: 20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h2 {
+	padding: 15px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+img{
+			width: 100%;
+		}
+
+
+		aside{
+			width: 70%;
+			float: left;
+			
+			
+		}
+
+		article{
+			width: 30%;
+			float: left;
+		}
+ div {
+ 	width: 80%;
+ 	margin: 0 auto;
+ }
+p {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 1.1em;
+
+}
+
+footer{
+
+	padding:10px;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px){
+			aside{
+			width: 100%;
+			float: left;
+			
+			
+			}
+
+			article{
+				width: 100%;
+				float: left;
+			}
+ div {
+ 	width: 80%;
+ 	margin: 0 auto;
+ }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
