@@ -6,7 +6,7 @@
 nav{
 	background-color: orange;
 	text-align: center;
-	max-width: 1020px;
+	
 }
 nav ul{
 	list-style: none;
@@ -29,11 +29,37 @@ nav a {
  }
 
 body{
+	max-width: 1020px;
 	text-align: center;
-	margin-top: 20px;
+	margin: auto;
 
 	background-size: cover;
 	background: url(Images/JourneyToTheWestJasperShaw.jpg) no-repeat center center fixed;
-	color: #3E75BB;
+	color: #000000;
 			
 	}
+
+h1 {
+	padding: 20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h2 {
+	padding: 15px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+
+
+
+@media only screen and (max-width: 800px){
+
+
+
+
+
+
+
+
+
+}
