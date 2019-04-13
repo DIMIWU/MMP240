@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-	<nav>
+	<nav class="topnav" id="myTopnav">
 		<ul>
 			<li>
 				<a href="index.html">Home</a>
@@ -22,6 +22,10 @@
 			<li>
 				<a href="../index.html">MMP240 Class Website</a>
 			</li>
+
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
 		</ul>
 	</nav>
 	<P>
@@ -33,6 +37,29 @@ The Journey to the West has its roots in the legends that had sprung up around t
 	</P>
 
 	<p>Source:http://www.demystifyingconfucianism.info/the-journey-to-the-west-chinese-view-of-history</p>
+
+
+	<footer>
+		©Copyright Dimi Wu
+	</footer>
+
+
+
+
+
+
+
+
+	<script>            
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
 
 </body>
 </html>

@@ -29,13 +29,11 @@ nav a {
  }
 
 body{
-	max-width: 1020px;
 	text-align: center;
-	margin: auto;
-
 	background-size: cover;
-	background: url(Images/JourneyToTheWestJasperShaw.jpg) no-repeat center center fixed;
+	/*background: url(Images/zcool1PS.jpg) no-repeat center center fixed;*/
 	color: #000000;
+	margin: auto;
 			
 	}
 
@@ -47,13 +45,135 @@ h2 {
 	padding: 15px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
+div{
+	width: 80%;
+	margin: 20px auto;
+	border: 3px;
+	clear: both;
+
+}
+
+		img{
+			width: 100%;
+			max-width: 200px;
+		}
+
+		aside{
+			width: 50%;
+			float:left;
+		}
+
+		article{
+			width: 50%;
+			float: left;
+			columns: 1;
+		}
+
+		p{
+			text-align: left;
+			float: none;
+			text-indent: 30px;
+		}
+		footer{
+			clear: both;
+		}
 
 
 
 
+.topnav {
+  overflow: hidden;
 
-@media only screen and (max-width: 800px){
+}
 
+.topnav a {
+  float: none;
+  display: inline-block;
+
+}
+
+.topnav a:hover {
+  color: #FFFFFF;
+}
+
+.active {
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+
+@media only screen and (max-width:800px){
+
+	aside{
+			width: 100%;
+			
+			
+			}
+
+			article{
+				width: 100%;
+				columns: 1;
+				text-indent: 20px;
+				float: right;
+			}
+ div {
+ 	margin: 0 auto;
+ 	width: 95%;
+ }
+
+
+
+  /*.topnav{
+    text-align: center;
+  }*/
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+   /* float: right;*/
+    display: block;
+    padding: 17.25px 17px;
+  }
+  .topnav {
+    position: relative;
+  }
+  .topnav .icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav a {
+  float: none;
+  /*  display: block;*/
+    text-align: center;
+  }
+  .topnav.responsive {position: relative;}
+  
+    
+/*  .topnav a.icon{
+    display: block;
+    height: auto;
+    width: auto;
+    If navigation button is off, fix padding here after styling text
+     padding: 17.25px 17px;
+    }*/
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    /*If navigation button is off, fix padding here after styling text*/
+    padding: 17.25px 17px;
+    
+  }
 
 
 
