@@ -4,32 +4,32 @@
  	grid-template-rows: repeat(5, 1fr);
  	grid-template-areas: 
  		"title"
- 		"masthead"
- 		"main"
- 		"sidebar"
- 		"footer";
+ 		"image1"
+ 		"image2"
+ 		"image3"
+ 		"image4";
  		width: 90%;
  		margin: auto;
 }
 
 .masthead{
-	grid-area: masthead;
-}
-
-.page-title{
 	grid-area: title;
 }
 
+.page-title{
+	grid-area: image1;
+}
+
 .main-content{
-	grid-area: main;
+	grid-area: image2;
 }
 
 .sidebar{
-	grid-area: sidebar;
+	grid-area: image3;
 }
 
 .footer-content{
-	grid-area: footer;
+	grid-area: image4;
 
 }
 
