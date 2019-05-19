@@ -34,64 +34,69 @@ nav a {
 
 
 
-
-
-
-
-
-
 body
 {
   text-align: center;
   background-size: cover;
+  /*background: url(Images/Nav.jpg) no-repeat center center fixed;*/
   color: #000000;
   margin: auto;
   background-color: white; 
   text-align: center;     
   }
 
+
+
+
+
+header{
+  width: 100%;
+}
+
+
+.header-image{
+  width: 100%;
+  position: relative;
+
+}
+
 h1 
 {
-  padding: 20px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  
+  font-family: Impact, Charcoal, sans-serif;
+  color: white;
+  font-weight: bold;
+  position: absolute; right: 20%; top: 40%;
+  text-align: center;
+  text-shadow: 0.1em 0.1em #000000;
+  
+  
+ 
 }
 
 h2 
 {
   padding: 15px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #4076ce;
+  /*text-shadow: 0.05em 0.05em #2357aa;*/
+  margin:10px;
+
 }
 
 
-footer
-{
-  clear: both;
+
+article{
+  margin: 10px;
 }
+
 
 
 img
 {
   text-align: center;
+  width: 100%
 }
-
-
-.header-image
-
-{
-  max-width:900px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -121,55 +126,97 @@ img
       display: none;
     }
 
-footer{
-  padding-top: 100px;
-  margin-bottom: 100px;
+
+
+
+
+    .HomePageImageList{
+      width: 90%;
+
+
+    }
+
+
+
+    footer{
+      padding-top: 100px;
+      margin-bottom: 100px;
+      text-align: center;
+      clear: both;
+    }
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:800px){
+
+
+
+  h1{
+  font-size: 200%!important;
+  }
+
+  /* img
+   {
+    max-width: 800px;}*/
+
+     div
+    {
+    width: 50%;
+    float: left;
+    }
+
+
+
 }
 
 
+@media only screen and (min-width:1200px){
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width:1200px){
-
-   img
+  /* img
    {
-    max-width: 1200px;
-   }
+    max-width: 800px;}*/
+
+    h1{
+    font-size: 400%!important;
+    }
+
+    div
+    {
+    width: 33%;
+    float: left;
+    }
+
+}
+
+
+  
 
 
 
 
+@media only screen and (max-width:600px){
 
-
-
-
-@media only screen and (max-width:800px){
-
-   img
-   {
-    max-width: 800px;
-
-
-   }
-@media only screen and (max-width:400px){
-
-   img
+   /*img
    {
     max-width: 400px;
+   }*/
+   h1{
+  font-size: 150%!important;
+  }
+
+
+   div{
+
+    width: 100%;
+
    }
 
 
