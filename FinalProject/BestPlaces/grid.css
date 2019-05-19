@@ -1,0 +1,84 @@
+.list{
+    display: grid;
+ 	grid-template-columns:1fr;
+ 	grid-template-rows: repeat(10, 1fr);
+ 	grid-template-areas: 
+ 		"beijing"
+ 		"shanghai"
+ 		"hongkong"
+ 		"taiwan"
+ 		"chengdu"
+ 		"xian"
+ 		"suzhou"
+ 		"innermangolia"
+ 		"tibet"
+ 		"fuzhou";
+ 		width: 90%;
+ 		margin: auto;
+ 		text-align: center;
+}
+
+.image1{
+	grid-area: beijing;
+}
+
+.image2{
+	grid-area: shanghai;
+}
+.image3{
+	grid-area: hongkong;
+}
+.image4{
+	grid-area: taiwan;
+}
+.image5{
+	grid-area: chengdu;
+}
+.image6{
+	grid-area: xian;
+}
+.image7{
+	grid-area: suzhou;
+}
+.image8{
+	grid-area: innermangolia;
+}
+.image9{
+	grid-area: tibet;
+}
+.image10{
+	grid-area: fuzhou;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px){
+
+	.list{
+		grid-template-columns: repeat(6,1fr);
+		grid-template-rows: repeat(5, 1fr);
+		grid-template-areas: 
+			"beijing beijing beijing shanghai shanghai shanghai "
+ 			"hongkong beijing beijing shanghai shanghai taiwan"
+ 			"hongkong hongkong hongkong chengdu chengdu chengdu"
+ 			"xian xian suzhou suzhou innermangolia innermangolia"
+ 			"tibet tibet tibet fuzhou fuzhou fuzhou";
+	}
+
+
+
+
+}
+
+
+
+
+
+
+

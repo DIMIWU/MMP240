@@ -148,6 +148,9 @@ div{
   /* img
    {
     max-width: 800px;}*/
+    .image4,.image5,.image9,.image10{
+      width: 50%
+    }
 
     h1{
     font-size: 300%!important;
