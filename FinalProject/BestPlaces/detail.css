@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body
+{
+  text-align: center;
+  background-size: cover;
+  /*background: url(Images/Nav.jpg) no-repeat center center fixed;*/
+  color: #000000;
+  margin: auto; 
+  background-color: white; 
+  background: #cbe1f6;   
+  }
+
+  header{
+  width: 100%;
+}
+
+
+.header-image{
+  width: 100%;
+  position: relative;
+
+}
+
+
+h1 
+{
+  
+  font-family: Impact, Charcoal, sans-serif;
+  color: white;
+  font-weight: bold;
+  position: absolute; right: 20%; top: 40%;
+  text-align: center;
+  text-shadow: 0.1em 0.1em #000000;
+  
+  
+ 
+}
+
+h2 
+{
+
+
+  font-family: Impact, Charcoal, sans-serif;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0.1em 0.1em #000000;
+  margin:10px;
+
+}
+
+
+
+article{
+  width: 100%;
+  margin: 10px;
+  float: left;
+}
+
+
+
+img
+{
+
+  width: 100%
+
+}
+
+
+
+aside{
+  width: 100%;
+  margin: 10px;
+  float: left;
+
+}
+
+
+div{
+  width: 90%;
+  margin:auto;
+  text-align: center;
+}
+
+
+p{
+  text-align: left;
+  text-indent: 50px;
+  padding-bottom: 5px;
+}
+
+
+    footer{
+      padding: 50px;
+      text-align: center;
+      clear: both;
+    }
+ 
+
+
+
+
+
+
+
+
+@media only screen and (min-width:1000px){
+
+
+
+  h1{
+  font-size: 200%!important;
+  }
+
+
+  article{
+  width: 33%;
+  margin: 10px;
+  float: left;
+}
+
+
+aside{
+  width: 60%;
+  margin: 10px;
+  float: left;
+
+}
+
+/*   img
+   {
+    max-width: 800px;}
+
+     div
+    {
+    width: 50%;
+    float: left;
+    }*/
+
+
+
+}
+
+
+@media only screen and (min-width:1000px){
+
+
+    h1{
+    font-size: 300%!important;
+    }
+
+  /*  div
+    {
+    width: 33%;
+    float: left;
+    }*/
+
+}
+
+
+@media only screen and (min-width:1200px){
+
+
+    h1{
+    font-size: 400%!important;
+    }
+
+  /*  div
+    {
+    width: 33%;
+    float: left;
+    }*/
+
+}
+
+
+  
+
+
+
+
