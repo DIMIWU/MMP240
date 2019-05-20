@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body
+{
+  text-align: center;
+  background-size: cover;
+  /*background: url(Images/Nav.jpg) no-repeat center center fixed;*/
+  color: #000000;
+  margin: auto; 
+  background-color: #ffeaf1;  
+  }
+
+
+  
+
+  header{
+  width: 100%;
+}
+
+
+.header-image{
+  width: 100%;
+  position: relative;
+
+}
+
+
+h1 
+{
+  
+  font-family: Impact, Charcoal, sans-serif;
+  color: white;
+  font-weight: bold;
+  position: absolute; right: 30%; top: 40%;
+  text-align: center;
+  text-shadow: 0.1em 0.1em #000000;
+  
+  
+ 
+}
+
+h2 
+{
+
+
+  font-family: Impact, Charcoal, sans-serif;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0.1em 0.1em #000000;
+  margin:10px;
+
+}
+
+p{
+  text-align: left;
+  text-indent: 50px;
+}
+
+
+
+article{
+  margin: 10px;
+}
+
+
+
+img
+{
+
+  width: 100%
+
+}
+
+aside{
+ /* width: 97%;*/
+  margin: 10px;
+
+}
+div{
+  width: 90%;
+  margin-top: 30px;
+}
+ol{
+  list-style-type: none;
+  text-align: center;
+}
+
+
+    footer{
+      padding: 50px;
+      text-align: center;
+      clear: both;
+    }
+ 
+
+
+
+
+
+
+@media only screen and (max-width:600px){
+
+   /*img
+   {
+    max-width: 400px;
+   }*/
+   h1{
+  font-size: 180%!important;
+  }
+
+
+   div{
+
+    width: 100%;
+    margin: auto;
+
+   }
+  
+
+}
+
+
+
+
+
+@media only screen and (min-width:800px){
+
+
+
+  h1{
+  font-size: 200%!important;
+  }
+
+  p{
+    columns: 2;
+  }
+
+    img{
+
+      
+    }
+    
+     div
+    {
+      width: 98%;
+    }
+
+
+
+}
+
+
+@media only screen and (min-width:1000px){
+
+  /* img
+   {
+    max-width: 800px;}*/
+
+    h1{
+    font-size: 300%!important;
+    }
+
+    div
+    {
+    
+    }
+
+}
+
+
+@media only screen and (min-width:1200px){
+
+  /* img
+   {
+    max-width: 800px;}*/
+
+    h1{
+    font-size: 400%!important;
+    }
+    p{
+    columns: 3;
+  }
+    div
+    {
+    
+    }
+
+}
+
+
+  
+
+
+
+

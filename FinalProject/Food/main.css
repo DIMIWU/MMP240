@@ -78,16 +78,18 @@ img
 }
 
 aside{
-  width: 97%;
+ /* width: 97%;*/
   margin: 10px;
 
 }
 div{
-  width: 100%;
-  margin:auto;
-  border-radius: 70%;
+  width: 90%;
+  margin-top: 30px;
 }
-
+ol{
+  list-style-type: none;
+  text-align: center;
+}
 
 
     footer{
@@ -143,7 +145,7 @@ div{
    {
     max-width: 800px;}*/
     img{
-   
+
       
     }
     .foodimage1{
@@ -160,7 +162,7 @@ div{
 
      div
     {
-      width: 90%;
+      width: 98%;
     }
 
 
@@ -195,7 +197,9 @@ div{
     h1{
     font-size: 400%!important;
     }
-
+    p{
+    columns: 3;
+  }
     div
     {
     
