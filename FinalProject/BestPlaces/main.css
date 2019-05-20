@@ -81,6 +81,11 @@ div{
   border-radius: 70%;
 }
 
+li{
+  list-style: none;
+  color: black;
+}
+
 
 
     footer{
